@@ -16,7 +16,7 @@ const Article = require('./models/article')
 
 // end points
 app.get('/hello', (req, res)=>{
-    res.send("Welcome to the world!");
+    res.send("Welcome to the new online page!");
 })
 
 app.get('/findsum/:number1/:number2', (req , res)=>{
